@@ -49,8 +49,7 @@
 
 img {
     border-radius: 100%;
-    margin-top: 20px;
-    padding: 30px;
+    padding: 10px;
 }
 
 h4 {
@@ -81,9 +80,15 @@ h4 {
 }
 
 .who {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
+    float: left;
+    width: 50%;
+}
+
+.who ul {
+    list-style: none;
 }
 
 #main-footer {
@@ -105,4 +110,8 @@ h4 {
 .logo {
     float: left;
     font-size: larger;
+}
+
+h4 {
+    padding-bottom: 35px;
 }
