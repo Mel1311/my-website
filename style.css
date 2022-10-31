@@ -7,7 +7,7 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-primary: 'Source Sans Pro', Calibri;
     --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
@@ -87,6 +87,7 @@ strong {
 }
 
 .btn:hover {
+
     transform: scale(1.1);
 }
 
@@ -135,6 +136,11 @@ h3 {
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+
+}
+
+.section__subtitle--about {
+    font-size: 20px;
 }
 
 .section__subtitle--work {
@@ -378,6 +384,7 @@ header {
 
     .section__title--about {
         grid-area: title;
+
     }
 
     .section__subtitle--about {
@@ -388,6 +395,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        text-align: center;
     }
 
     .about-me__img {
@@ -395,6 +403,10 @@ header {
         position: relative;
         z-index: 2;
     }
+}
+
+.hoverhere:hover {
+    color: #748274
 }
 
 /* My Work */
