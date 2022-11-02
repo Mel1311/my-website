@@ -526,7 +526,7 @@ header {
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-    
+
 }
 
 .skillsGrid li {
@@ -549,10 +549,5 @@ header {
 .skillsGrid li img {
     width: 75px;
     height: 75px;
-    
-}
 
-.skillsSectio {
-    background-color: whitesmoke;
 }
-
