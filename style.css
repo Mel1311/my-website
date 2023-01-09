@@ -169,6 +169,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+
 }
 
 .nav__link {
@@ -289,7 +290,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(services-bg..png);
+    background-image: url(assets/services-bg..png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -299,6 +300,7 @@ header {
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
+   
 }
 
 .section__title--services::after {
@@ -306,13 +308,14 @@ header {
     display: block;
     width: 2em;
     height: 1px;
-    margin: 0.5em auto 1em;
+    margin: auto;
     background: var(--clr-light);
     opacity: 0.25;
+  
 }
 
 .services {
-    margin-bottom: 4em;
+    margin: auto;
 }
 
 .service {
@@ -366,7 +369,7 @@ header {
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
-        text-align: center;
+       
     }
 
     .about-me__img {
@@ -520,34 +523,34 @@ header {
 }
 
 .skillsGrid {
-    display: -ms-grid;
+
     display: grid;
     -ms-grid-columns: (minmax(80px, 1fr))[auto-fill];
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-column-gap: 75px;
+    grid-row-gap: 75px;
+
 
 }
 
 .skillsGrid li {
-    background-color: #333;
-    padding: 5px;
-    border-radius: 15px;
-    width: 80px;
+    width: 75px;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
-    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
-    border: 1px solid #333;
     list-style: none;
 }
 
-.skillsGrid li p {
-    margin-top: 10px;
-}
-
 .skillsGrid li img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
+  
 
 }
+
+.skillsSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
